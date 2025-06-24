@@ -72,7 +72,8 @@ conversation: 'WhatsApp Bot By RafzOffx'
 	
 if (pairingCode && !gixnaxd.authState.creds.registered) {
 let phoneNumber
-phoneNumber = 6287760550924
+phoneNumber = await question(chalk.blue.bold('Masukan Nomor WhatsApp :\n'))
+phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 let code = await gixnaxd.requestPairingCode(phoneNumber);
 code = code.match(/.{1,4}/g).join(" - ") || code
 await console.log(`${chalk.blue.bold('Kode Pairing')} : ${chalk.white.bold(code)}`)

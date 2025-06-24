@@ -1,0 +1,26 @@
+{
+  "6285167089173@s.whatsapp.net": {
+    "name": "Qoupay Indonesia",
+    "level": 1,
+    "rpg": {
+      "money": 1113374,
+      "energy": 100,
+      "inventory": [],
+      "coin": 41
+    },
+    "bank": 0,
+    "lastbansos": 1742902746095
+  },
+  "6285842719638@s.whatsapp.net": {
+    "name": "Player",
+    "level": 1,
+    "rpg": {
+      "money": 5000,
+      "energy": 100,
+      "inventory": [],
+      "coin": 0
+    },
+    "bank": 0,
+    "lastbansos": 0
+  }
+}
